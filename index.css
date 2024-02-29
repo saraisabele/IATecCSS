@@ -1,0 +1,142 @@
+body {
+    background-color: peachpuff;
+}
+
+#lemonCake {
+    height: 200px;
+    width: 20%;
+    
+}
+#sonhoPad {
+    height: 200px;
+    width: 20%;
+    
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: crimson
+}
+p {
+    text-align: center;
+    line-height: 1.5;
+    color: brown;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h3 {
+    text-align: center;
+    color: crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Limao{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+.sonho {
+   
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+
+}
+#chocolateCake {
+    height: 200px;
+    width: 20%;
+    
+
+}
+.chocolate {
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+dl {
+    color: crimson;
+    background-color: papayawhip;   
+}
+dd {
+    color: brown;
+}
+#chocotone {
+    height: 200px;
+    width: 20%;
+    
+}
+.Chocotone {
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+@media(max-width: 980px) {
+    html {
+        background-color: orangered;
+        font-size: 80%;
+    }
+    .confeit{
+        margin: 0;
+        text-align: center;
+    }
+    p {
+        line-height: 1.5;
+    }
+    }
+    .Limao{
+        width: 90%;
+    }
+    .Chocotone{
+        width: 90%;
+    }
+    .chocolate{
+        width: 90%;
+    }
+    .sonho {
+        width: 90%;
+    }
+    #lemonCake{
+        max-width: 100%;
+        height: auto;
+    }
+    .flex-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+@media(max-width: 350px) {
+    html {
+        background-color: purple;
+        font-size: 85%;
+    }
+    p{
+        width: 300px;
+        line-height: 1.5;
+    }
+    .confeit{
+        width: 250px;
+        margin-left: 5%;
+    }
+    dl{
+        font-size: 0.8rem;
+    }
+
+    .flex-div{
+        display: flex;
+        flex-direction: column;
+    }
+    #lemonCake{
+        max-width: 130%;
+        height: auto;
+    }
+    #sonhoPad{
+        max-width:130%;
+        height: auto;
+    }
+    #chocolateCake {
+        max-width: 130%;
+        height: auto;
+    }
+    #chocotone {
+        max-width: 130%;
+        height: auto;
+    }
+}
